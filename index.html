@@ -3,9 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HTML Containers Examples</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+            body{
+                margin:0;
+            }
+            
+            .top_header{               
+                 background-color: #3D61CB !important; 
+                 height: 35.8px;
+                 color:#C8CCCC;
+                 font-size: 14px;
+            }
+            .email_container{
+                width: 400px;
+                display: block; 
+                text-align: right;  
+                float: left;                  
+                padding:10px 0;
+            }
+
+            .contact_container{
+                width: 400px;
+                display: block; 
+                text-align: right;    
+                float: left;
+                padding:10px 0;
+            }
+
+            .social_icon{
+                width: 400px;
+                display: block; 
+                text-align: right;  
+                float: left;  
+                padding:10px 0;
+            }
+
+    </style>
 </head>
 <body>
-    <h1>My first web page</h1>
+    <div class="main-page">
+        <div class="header">
+
+            <div name="top_header" id="top_header" class="top_header" title="top_bar" > 
+                <div class="email_container">
+                    <span><i class="fa-light fa-envelope"></i>abhay@gmail.com</span>    
+                </div>
+                <div class="contact_container">[+91] 9412248907, 9997745999</div>
+                <div class="social_icon"><i class="fa-brands fa-facebook"></i></div>
+                <span>&nbsp;</span>
+            </div>
+
+            <div name="header_log_address" id="header_log_address" class="header_log_address" >
+
+                <div class="logo_container">
+                   <img src="http://kbmamroha.com/images/logo.png">
+                </div>
+                <div class="contact_container">[+91] 9412248907, 9997745999</div>
+                <div class="social_icon"><i class="fa-brands fa-facebook"></i></div>
+                <span>&nbsp;</span>
+
+
+            </div>
+
+
+
+            <div name="menu-bar" id="menu-bar"class="menu-bar">menu</div>
+        </div>
+
+        <div class="content">Content</div>
+
+        <div class="footer">Footer</div>
+
+    </div>
 </body>
 </html>
