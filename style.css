@@ -1,0 +1,23 @@
+
+#id_css_example{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(178, 26, 140);
+    color:white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+} 
+
+.paragraph{
+    background-color: orange;
+    text-align: justify;
+    padding:10px;
+    border:5px solid blue;
+}

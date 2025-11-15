@@ -15,6 +15,7 @@
                  height: 35.8px;
                  color:#C8CCCC;
                  font-size: 14px;
+                  font-family: "Montserrat", sans-serif;
             }
             .email_container{
                 width: 400px;
@@ -40,6 +41,79 @@
                 padding:10px 0;
             }
 
+            .header_log_address{
+                    padding:14px;
+                    font-family: "Montserrat", sans-serif;
+                     margin-bottom: 10px;
+            }
+
+            .logo_container{
+                font-size: 14px;
+                width: 400px;
+                float: left; 
+                display: block; 
+               
+            }
+
+            .address_container{
+                padding-top:45px;
+                width: 400px;
+                float: left; 
+                display: block; 
+            }
+
+            .school_timings{
+                padding-top:45px;
+                width: 400px;
+                float: left; 
+                display: block;
+            }
+
+            .logo{
+                width: 239px;
+                height:235px;
+            }
+
+            #find_us{
+                color:#333333;                
+            }
+           /* Reset default padding and margin */
+
+.menu-bar {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #003366;         /* Dark blue background */
+    width: 100%;
+}
+
+.menu-bar ul {
+    list-style: none;
+    display: flex;               /* Makes the menu horizontal */
+    justify-content: center;     /* Centers menu items */
+}
+
+.menu-bar ul li {
+    position: relative;
+}
+
+.menu-bar ul li a {
+    display: block;
+    padding: 14px 25px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    transition: 0.3s;
+}
+
+.menu-bar ul li a:hover {
+    background: #0059b3;         /* Lighter blue on hover */
+    color: #fff;
+}
+
+
+
     </style>
 </head>
 <body>
@@ -58,23 +132,148 @@
             <div name="header_log_address" id="header_log_address" class="header_log_address" >
 
                 <div class="logo_container">
-                   <img src="http://kbmamroha.com/images/logo.png">
+                   <img src="http://kbmamroha.com/images/logo.png" class="logo">
                 </div>
-                <div class="contact_container">[+91] 9412248907, 9997745999</div>
-                <div class="social_icon"><i class="fa-brands fa-facebook"></i></div>
+
+                <div class="address_container">
+                       <span id="find_us"><strong>FIND US: </strong></span> KBM INTER COLLEGE<br/>
+                        Azad Road Near Dushehra Ground,<br/>
+                        Amroha - 244221,<br/>
+                        Uttar Pradesh
+                </div>
+
+                <div class="school_timings">
+                    Opening Hours: (7:25am to 1:25 pm )
+                    Sunday - Closed
+                </div>
                 <span>&nbsp;</span>
 
 
             </div>
 
+            <br/><br/><br/><br/>
+            <br/><br/><br/><br/><br/>
+           <br/>
+            <div name="menu-bar" id="menu-bar" class="menu-bar">
+                <ul>
+                    <li>
+                        <a href="">Home</a>
+                    </li>
+                    <li>
+                        <a href="">About Us</a>
+                    </li>
+                    <li>
+                        <a href="">School</a>
+                    </li>
+                    <li>
+                        <a href="">Faculty</a>
+                    </li>
+                    <li>
+                        <a href="">Alumini</a>
+                    </li>
+                    <li>
+                        <a href="">Gallery</a>
+                    </li>
+                    <li>
+                        <a href="">News</a>
+                    </li>
+                    <li>
+                        <a href="">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="user_registration_container">
+            <form action="">
+                Name : <input type="text" name="user_name" id="user_name" /> <br/>
+                Email : <input type="email" name="user_email" id="user_email" /> <br/>
+                Mobile : <input type="text" name="user_mobile" id="user_mobile" /> <br/>
+                <input type="submit" value="Register" />
 
+            </form>
 
-            <div name="menu-bar" id="menu-bar"class="menu-bar">menu</div>
+        </div>
+        <div class="content">
+            <h2>User List</h2>
+            <div class="user-table">
+                <table width="100%" border="1" cellspacing="0" cellpadding="5px">
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Mobile</th>
+                    </tr>   
+                    <tr>
+                        <td>Brijesh</td>
+                        <td>brijesh@gmail.com</td>
+                        <td>701333333</td>
+                    </tr> 
+                    <tr>
+                        <td>Brijesh</td>
+                        <td colspan="2">brijesh@gmail.com 701333333</td>
+                    </tr> 
+                    <tr>
+                        <td rowspan="2">Brijesh</td>
+                        <td>brijesh@gmail.com</td>
+                        <td>701333333</td>
+                    </tr> 
+                    <tr>
+                        <td>brijesh@gmail.com</td>
+                        <td>701333333</td>
+                    </tr> 
+                    <tr>
+                        <td>Brijesh</td>
+                        <td>brijesh@gmail.com</td>
+                        <td>701333333</td>
+                    </tr> 
+                    <tr>
+                        <td>Brijesh</td>
+                        <td>brijesh@gmail.com</td>
+                        <td>701333333</td>
+                    </tr>   
+                
+                </table>
+            </div>
+            
+            Name Email Mobile
+            Brijesh brijesh@gmail.com 701333333
+            Brijesh brijesh@gmail.com 701333333
+            Brijesh brijesh@gmail.com 701333333
+            Brijesh brijesh@gmail.com 701333333
+            Brijesh brijesh@gmail.com 701333333
+            Brijesh brijesh@gmail.com 701333333
+            <h2>
+                FACILITIES <span style="font-weight: 900;">PROVIDED AT KBM</span> 
+            </h2>
+            <ul >
+                <li>
+                    We have well equipped Physics lab with sufficient numbers of instruments.
+                </li>
+                <li>
+                    We have well equipped Physics lab with sufficient numbers of instruments.
+                </li>
+                <li>
+                    We have well equipped Physics lab with sufficient numbers of instruments.
+                </li>
+                <li>
+                    We have well equipped Physics lab with sufficient numbers of instruments.
+                </li>
+                <li>
+                    We have well equipped Physics lab with sufficient numbers of instruments.
+                </li>
+                <li>
+                    We have well equipped Physics lab with sufficient numbers of instruments.
+                </li>
+                <li>
+                    We have well equipped Physics lab with sufficient numbers of instruments.
+                </li>
+                <li>
+                    We have well equipped Physics lab with sufficient numbers of instruments.
+                </li>
+                
+            </ol>
         </div>
 
-        <div class="content">Content</div>
-
-        <div class="footer">Footer</div>
+        <!-- <div class="footer">Footer</div>  -->
 
     </div>
 </body>
